@@ -1,0 +1,51 @@
+---
+title: "Introduction to R Markdown"
+author: "NAME"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+This assignment will introduce you to the `R Markdown` coding language.  Moreover, this `R Markdown` file (note the *.rmd extension) is a setting called "literate programming" where a user can alternate between regular typing---enhanced with markdown---and computer code (`R` or `Python`).  
+
+---
+
+Type your full name in the `author` field above.  State your major (including emphasis if applicable) and list your classes---course number and as an ***ordered-list***, from the one you like the most to the least the one you think you like the least.    
+ 
+
+
+---
+
+Why are you enrolled in Math 15? What are you hoping to learn and gain? Hit the space bar twice to create a space between lines.  
+
+
+
+
+---
+
+Type "What are your educational goals?" as a ***bullet-point list***.  
+
+
+
+---
+
+Type "What are your fears and obstacles this semester?" into the code block. *italicize* your fears and **boldface** your obstacles. If none say I have no fears and I have no obstacles. Make sure to *italicize* or  **boldface** anyway.   
+
+ 
+
+
+   
+---
+   
+The following is a code block.    
+
+```{r}
+4+100000  
+```
+
+This is where you type any calculation when using an r-markdown file.   
+   
+---
+   
+Save your work in the "Exploration1_your name.rmd" convention, `knit` the code as a pdf or html by clicking the down arrow next to knit, and then upload the pdf file.
